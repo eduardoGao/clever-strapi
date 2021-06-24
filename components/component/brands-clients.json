@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_component_brands_clients",
+  "info": {
+    "name": "brands_clients",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "logo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.image"
+    }
+  }
+}

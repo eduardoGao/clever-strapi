@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_clever_linea_qa_s",
+  "info": {
+    "name": "qa's",
+    "icon": "angle-double-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "question": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.benefit-item"
+    }
+  }
+}

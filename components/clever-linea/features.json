@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_clever_linea_features",
+  "info": {
+    "name": "features",
+    "icon": "arrow-circle-up"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "feature": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.feature-item"
+    }
+  }
+}

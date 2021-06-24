@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_component_clients",
+  "info": {
+    "name": "client_item",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title_testimony": {
+      "type": "string"
+    },
+    "description_testimony": {
+      "type": "string"
+    },
+    "client": {
+      "type": "string"
+    },
+    "client_posiiton": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_component_benefits",
+  "info": {
+    "name": "benefits",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "benefit_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.benefit-item"
+    }
+  }
+}

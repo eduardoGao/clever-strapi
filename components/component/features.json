@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_component_features",
+  "info": {
+    "name": "features",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "feature_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.feature-item"
+    }
+  }
+}

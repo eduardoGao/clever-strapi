@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "clever_lineas",
+  "info": {
+    "name": "clever linea",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.hero"
+    },
+    "information": {
+      "type": "component",
+      "repeatable": false,
+      "component": "clever-linea.information"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": false,
+      "component": "clever-linea.features"
+    },
+    "questions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "clever-linea.qa-s"
+    }
+  }
+}

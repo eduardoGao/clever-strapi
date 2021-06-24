@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_component_benefit_items",
+  "info": {
+    "name": "benefit_item",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "slug": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

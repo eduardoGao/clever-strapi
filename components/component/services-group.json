@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_component_services_groups",
+  "info": {
+    "name": "services_group",
+    "icon": "bong"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "product": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.feature-item"
+    }
+  }
+}

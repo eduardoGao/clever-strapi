@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_component_clients",
+  "info": {
+    "name": "clients",
+    "icon": "assistive-listening-systems",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "client_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.client"
+    }
+  }
+}
