@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/avisos",
+      "handler": "avisos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/avisos",
+      "handler": "avisos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/avisos",
+      "handler": "avisos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

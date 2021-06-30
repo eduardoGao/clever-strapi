@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "clever_lineas",
+  "collectionName": "clever_its",
   "info": {
-    "name": "clever linea",
+    "name": "Clever IT",
     "description": ""
   },
   "options": {
@@ -26,16 +26,6 @@
         }
       }
     },
-    "information": {
-      "type": "component",
-      "repeatable": false,
-      "component": "clever-linea.information",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "features": {
       "type": "component",
       "repeatable": false,
@@ -46,10 +36,36 @@
         }
       }
     },
-    "questions": {
+    "imageFeature": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "benefits": {
       "type": "component",
       "repeatable": false,
-      "component": "clever-linea.qa-s",
+      "component": "clever-linea.features",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "softwares": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.feature-item",
       "pluginOptions": {
         "i18n": {
           "localized": true

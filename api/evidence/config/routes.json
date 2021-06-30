@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/evidence",
+      "handler": "evidence.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/evidence",
+      "handler": "evidence.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/evidence",
+      "handler": "evidence.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

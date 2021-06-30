@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/wallet",
+      "handler": "wallet.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/wallet",
+      "handler": "wallet.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/wallet",
+      "handler": "wallet.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "clever_lineas",
+  "collectionName": "soportes",
   "info": {
-    "name": "clever linea",
+    "name": "soporte",
     "description": ""
   },
   "options": {
@@ -26,30 +26,26 @@
         }
       }
     },
-    "information": {
-      "type": "component",
-      "repeatable": false,
-      "component": "clever-linea.information",
+    "title": {
+      "type": "string",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       }
     },
-    "features": {
-      "type": "component",
-      "repeatable": false,
-      "component": "clever-linea.features",
+    "subtitle": {
+      "type": "string",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       }
     },
-    "questions": {
+    "location": {
       "type": "component",
-      "repeatable": false,
-      "component": "clever-linea.qa-s",
+      "repeatable": true,
+      "component": "soporte.location",
       "pluginOptions": {
         "i18n": {
           "localized": true

@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "clever_lineas",
+  "collectionName": "clever_shows",
   "info": {
-    "name": "clever linea",
+    "name": "Clever Show",
     "description": ""
   },
   "options": {
@@ -26,17 +26,7 @@
         }
       }
     },
-    "information": {
-      "type": "component",
-      "repeatable": false,
-      "component": "clever-linea.information",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "features": {
+    "herramientas": {
       "type": "component",
       "repeatable": false,
       "component": "clever-linea.features",
@@ -46,10 +36,30 @@
         }
       }
     },
-    "questions": {
+    "valor": {
       "type": "component",
       "repeatable": false,
-      "component": "clever-linea.qa-s",
+      "component": "clever-linea.features",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "servidor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.hero",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "clever-linea.information",
       "pluginOptions": {
         "i18n": {
           "localized": true

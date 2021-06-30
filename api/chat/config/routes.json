@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/chat",
+      "handler": "chat.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/chat",
+      "handler": "chat.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/chat",
+      "handler": "chat.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

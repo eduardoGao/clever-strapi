@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/connect",
+      "handler": "connect.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/connect",
+      "handler": "connect.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/connect",
+      "handler": "connect.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pbx",
+      "handler": "pbx.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pbx",
+      "handler": "pbx.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pbx",
+      "handler": "pbx.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

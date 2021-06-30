@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/iot-box",
+      "handler": "iot-box.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/iot-box",
+      "handler": "iot-box.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/iot-box",
+      "handler": "iot-box.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

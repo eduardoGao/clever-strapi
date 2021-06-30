@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "clever_lineas",
+  "collectionName": "evidences",
   "info": {
-    "name": "clever linea",
+    "name": "Evidence",
     "description": ""
   },
   "options": {
@@ -26,16 +26,6 @@
         }
       }
     },
-    "information": {
-      "type": "component",
-      "repeatable": false,
-      "component": "clever-linea.information",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "features": {
       "type": "component",
       "repeatable": false,
@@ -46,10 +36,10 @@
         }
       }
     },
-    "questions": {
+    "feature_single": {
       "type": "component",
       "repeatable": false,
-      "component": "clever-linea.qa-s",
+      "component": "clever-linea.features",
       "pluginOptions": {
         "i18n": {
           "localized": true

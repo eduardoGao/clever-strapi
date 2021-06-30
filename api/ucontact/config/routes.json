@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ucontact",
+      "handler": "ucontact.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ucontact",
+      "handler": "ucontact.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ucontact",
+      "handler": "ucontact.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

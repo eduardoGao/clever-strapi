@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "clever_lineas",
+  "collectionName": "chats",
   "info": {
-    "name": "clever linea",
+    "name": "Chat",
     "description": ""
   },
   "options": {
@@ -26,30 +26,20 @@
         }
       }
     },
-    "information": {
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.feature-item",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "info": {
       "type": "component",
       "repeatable": false,
       "component": "clever-linea.information",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "features": {
-      "type": "component",
-      "repeatable": false,
-      "component": "clever-linea.features",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "questions": {
-      "type": "component",
-      "repeatable": false,
-      "component": "clever-linea.qa-s",
       "pluginOptions": {
         "i18n": {
           "localized": true

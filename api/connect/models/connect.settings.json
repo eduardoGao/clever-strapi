@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "clever_lineas",
+  "collectionName": "connects",
   "info": {
-    "name": "clever linea",
+    "name": "Connect",
     "description": ""
   },
   "options": {
@@ -20,16 +20,6 @@
       "type": "component",
       "repeatable": false,
       "component": "component.hero",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "information": {
-      "type": "component",
-      "repeatable": false,
-      "component": "clever-linea.information",
       "pluginOptions": {
         "i18n": {
           "localized": true

@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "clever_lineas",
+  "collectionName": "trackings",
   "info": {
-    "name": "clever linea",
+    "name": "Tracking",
     "description": ""
   },
   "options": {
@@ -26,10 +26,10 @@
         }
       }
     },
-    "information": {
+    "value": {
       "type": "component",
       "repeatable": false,
-      "component": "clever-linea.information",
+      "component": "clever-linea.features",
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -46,10 +46,10 @@
         }
       }
     },
-    "questions": {
+    "diferenciador": {
       "type": "component",
       "repeatable": false,
-      "component": "clever-linea.qa-s",
+      "component": "component.feature-item",
       "pluginOptions": {
         "i18n": {
           "localized": true

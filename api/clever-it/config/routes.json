@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/clever-it",
+      "handler": "clever-it.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/clever-it",
+      "handler": "clever-it.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/clever-it",
+      "handler": "clever-it.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

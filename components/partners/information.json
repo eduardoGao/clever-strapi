@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_partners_information",
+  "info": {
+    "name": "information",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "model": {
+      "type": "string"
+    },
+    "models": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.benefit-item"
+    }
+  }
+}

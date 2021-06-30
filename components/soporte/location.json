@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_soporte_locations",
+  "info": {
+    "name": "location",
+    "icon": "building",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.feature-item"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

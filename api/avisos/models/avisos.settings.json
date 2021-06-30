@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "clever_lineas",
+  "collectionName": "avisos",
   "info": {
-    "name": "clever linea",
+    "name": "Avisos",
     "description": ""
   },
   "options": {
@@ -26,17 +26,7 @@
         }
       }
     },
-    "information": {
-      "type": "component",
-      "repeatable": false,
-      "component": "clever-linea.information",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "features": {
+    "voz": {
       "type": "component",
       "repeatable": false,
       "component": "clever-linea.features",
@@ -46,10 +36,20 @@
         }
       }
     },
-    "questions": {
+    "sms": {
       "type": "component",
       "repeatable": false,
-      "component": "clever-linea.qa-s",
+      "component": "clever-linea.features",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "information": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.hero",
       "pluginOptions": {
         "i18n": {
           "localized": true

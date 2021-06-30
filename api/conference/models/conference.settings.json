@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "clever_lineas",
+  "collectionName": "conferences",
   "info": {
-    "name": "clever linea",
+    "name": "Conference",
     "description": ""
   },
   "options": {
@@ -26,10 +26,20 @@
         }
       }
     },
-    "information": {
+    "benefits_image": {
       "type": "component",
       "repeatable": false,
-      "component": "clever-linea.information",
+      "component": "component.image",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "benefits": {
+      "type": "component",
+      "repeatable": false,
+      "component": "clever-linea.features",
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -40,16 +50,6 @@
       "type": "component",
       "repeatable": false,
       "component": "clever-linea.features",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "questions": {
-      "type": "component",
-      "repeatable": false,
-      "component": "clever-linea.qa-s",
       "pluginOptions": {
         "i18n": {
           "localized": true

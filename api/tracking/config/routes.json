@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tracking",
+      "handler": "tracking.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tracking",
+      "handler": "tracking.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tracking",
+      "handler": "tracking.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
