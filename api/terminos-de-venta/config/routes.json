@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/terminos-de-venta",
+      "handler": "terminos-de-venta.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/terminos-de-venta",
+      "handler": "terminos-de-venta.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/terminos-de-venta",
+      "handler": "terminos-de-venta.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

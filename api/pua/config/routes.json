@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pua",
+      "handler": "pua.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pua",
+      "handler": "pua.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pua",
+      "handler": "pua.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
