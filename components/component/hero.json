@@ -26,6 +26,15 @@
     },
     "category": {
       "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "isVideo": {
+      "type": "boolean"
+    },
+    "color": {
+      "type": "string"
     }
   }
 }

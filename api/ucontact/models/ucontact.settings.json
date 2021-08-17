@@ -45,6 +45,18 @@
         }
       },
       "component": "component.carousel"
+    },
+    "complement": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "component.hero",
+        "component.features"
+      ]
     }
   }
 }
