@@ -26,26 +26,6 @@
       },
       "component": "component.hero"
     },
-    "benefits": {
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "component.features"
-    },
-    "entrepeneur": {
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "component.hero"
-    },
     "IFT": {
       "type": "component",
       "repeatable": false,
@@ -56,7 +36,7 @@
       },
       "component": "component.hero"
     },
-    "opinions": {
+    "info": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -64,7 +44,27 @@
           "localized": true
         }
       },
-      "component": "component.features"
+      "component": "component.hero"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "component.cta"
+    },
+    "quote": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "component.quote"
     }
   }
 }

@@ -57,6 +57,24 @@
         "component.hero",
         "component.features"
       ]
+    },
+    "tab_title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "tabs": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "component.tabs"
     }
   }
 }

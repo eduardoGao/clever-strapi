@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_component_tabs_features",
+  "info": {
+    "name": "tabs_features",
+    "icon": "bone"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "tab_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.tab-item"
+    }
+  }
+}

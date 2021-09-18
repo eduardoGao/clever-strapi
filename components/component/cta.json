@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_component_ctas",
+  "info": {
+    "name": "cta",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "button": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

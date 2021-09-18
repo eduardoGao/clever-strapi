@@ -1,20 +1,19 @@
 {
-  "collectionName": "components_component_benefit_items",
+  "collectionName": "components_component_list_link_icons",
   "info": {
-    "name": "benefit_item",
-    "icon": "ad",
-    "description": ""
+    "name": "listLink_icon",
+    "icon": "bolt"
   },
   "options": {},
   "attributes": {
-    "slug": {
+    "text": {
       "type": "string"
     },
-    "description": {
-      "type": "text"
+    "link": {
+      "type": "string"
     },
     "icon": {
-      "model": "file",
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
         "images",

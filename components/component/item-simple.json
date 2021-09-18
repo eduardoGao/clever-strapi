@@ -1,17 +1,13 @@
 {
-  "collectionName": "components_component_benefit_items",
+  "collectionName": "components_component_item_simples",
   "info": {
-    "name": "benefit_item",
-    "icon": "ad",
-    "description": ""
+    "name": "item_simple",
+    "icon": "check-circle"
   },
   "options": {},
   "attributes": {
-    "slug": {
+    "text": {
       "type": "string"
-    },
-    "description": {
-      "type": "text"
     },
     "icon": {
       "model": "file",

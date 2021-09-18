@@ -1,17 +1,13 @@
 {
-  "collectionName": "components_component_benefit_items",
+  "collectionName": "components_component_tab_items",
   "info": {
-    "name": "benefit_item",
-    "icon": "ad",
-    "description": ""
+    "name": "tab_item",
+    "icon": "baseball-ball"
   },
   "options": {},
   "attributes": {
-    "slug": {
+    "title": {
       "type": "string"
-    },
-    "description": {
-      "type": "text"
     },
     "icon": {
       "model": "file",

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_component_tabs_images",
+  "info": {
+    "name": "tabsImage",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "tabImage": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.tab-image"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_component_list_links",
+  "info": {
+    "name": "listLink",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

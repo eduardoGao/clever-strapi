@@ -1,17 +1,13 @@
 {
-  "collectionName": "components_component_benefit_items",
+  "collectionName": "components_component_tabs",
   "info": {
-    "name": "benefit_item",
-    "icon": "ad",
-    "description": ""
+    "name": "tabs",
+    "icon": "basketball-ball"
   },
   "options": {},
   "attributes": {
-    "slug": {
+    "title": {
       "type": "string"
-    },
-    "description": {
-      "type": "text"
     },
     "icon": {
       "model": "file",
@@ -24,6 +20,11 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "item_simple": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.item-simple"
     }
   }
 }
