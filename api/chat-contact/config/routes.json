@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/chat-contact",
+      "handler": "chat-contact.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/chat-contact",
+      "handler": "chat-contact.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/chat-contact",
+      "handler": "chat-contact.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
