@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/clever-linea",
-      "handler": "clever-linea.find",
+      "path": "/linea",
+      "handler": "linea.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/clever-linea",
-      "handler": "clever-linea.update",
+      "path": "/linea",
+      "handler": "linea.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/clever-linea",
-      "handler": "clever-linea.delete",
+      "path": "/linea",
+      "handler": "linea.delete",
       "config": {
         "policies": []
       }

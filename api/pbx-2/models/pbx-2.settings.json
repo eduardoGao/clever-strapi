@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "clever_shows",
+  "collectionName": "pbx_2s",
   "info": {
-    "name": "Clever Show",
+    "name": "PBX_2",
     "description": ""
   },
   "options": {
@@ -29,50 +29,50 @@
     "info": {
       "type": "component",
       "repeatable": false,
+      "component": "component.hero",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "component": "component.hero"
+      }
     },
     "features": {
       "type": "component",
       "repeatable": false,
+      "component": "component.features",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "component": "component.features"
+      }
     },
     "info2": {
       "type": "component",
       "repeatable": false,
+      "component": "component.hero",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "component": "component.hero"
+      }
     },
     "tabs_title": {
+      "type": "string",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "type": "string"
+      }
     },
     "tabs": {
       "type": "component",
       "repeatable": true,
+      "component": "component.tabs",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "component": "component.tabs"
+      }
     },
     "tabsBackground": {
       "model": "file",

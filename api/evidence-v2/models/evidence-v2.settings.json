@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "clever_lineas",
+  "collectionName": "evidence_v2s",
   "info": {
-    "name": "clever linea",
+    "name": "evidence-v2",
     "description": ""
   },
   "options": {
@@ -26,10 +26,10 @@
         }
       }
     },
-    "information": {
+    "info": {
       "type": "component",
       "repeatable": false,
-      "component": "clever-linea.information",
+      "component": "component.hero",
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -39,17 +39,51 @@
     "features": {
       "type": "component",
       "repeatable": false,
-      "component": "clever-linea.features",
+      "component": "component.features",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       }
     },
-    "questions": {
+    "info2": {
       "type": "component",
       "repeatable": false,
-      "component": "clever-linea.qa-s",
+      "component": "component.hero",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "tabs_title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "tabs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "component.tabs",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "tabs_background": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
       "pluginOptions": {
         "i18n": {
           "localized": true

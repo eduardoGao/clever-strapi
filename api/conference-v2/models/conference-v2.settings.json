@@ -1,9 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "clever_shows",
+  "collectionName": "conference_v2s",
   "info": {
-    "name": "Clever Show",
-    "description": ""
+    "name": "conference-v2"
   },
   "options": {
     "increments": true,
@@ -19,12 +18,12 @@
     "hero": {
       "type": "component",
       "repeatable": false,
-      "component": "component.hero",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "component": "component.hero"
     },
     "info": {
       "type": "component",

@@ -1,9 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "clever_shows",
+  "collectionName": "lineas",
   "info": {
-    "name": "Clever Show",
-    "description": ""
+    "name": "Linea"
   },
   "options": {
     "increments": true,
@@ -19,12 +18,12 @@
     "hero": {
       "type": "component",
       "repeatable": false,
-      "component": "component.hero",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "component": "component.hero"
     },
     "info": {
       "type": "component",

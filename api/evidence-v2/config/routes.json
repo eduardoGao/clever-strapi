@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/evidence-v-2",
+      "handler": "evidence-v2.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/evidence-v-2",
+      "handler": "evidence-v2.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/evidence-v-2",
+      "handler": "evidence-v2.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

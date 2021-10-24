@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/pbx",
-      "handler": "pbx.find",
+      "path": "/conference-v-2",
+      "handler": "conference-v2.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/pbx",
-      "handler": "pbx.update",
+      "path": "/conference-v-2",
+      "handler": "conference-v2.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/pbx",
-      "handler": "pbx.delete",
+      "path": "/conference-v-2",
+      "handler": "conference-v2.delete",
       "config": {
         "policies": []
       }
