@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/chat",
-      "handler": "chat.find",
+      "path": "/iot-v-2",
+      "handler": "iot-v2.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/chat",
-      "handler": "chat.update",
+      "path": "/iot-v-2",
+      "handler": "iot-v2.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/chat",
-      "handler": "chat.delete",
+      "path": "/iot-v-2",
+      "handler": "iot-v2.delete",
       "config": {
         "policies": []
       }

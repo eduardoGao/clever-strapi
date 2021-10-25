@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/evidence",
-      "handler": "evidence.find",
+      "path": "/connect-v-2",
+      "handler": "connect-v2.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/evidence",
-      "handler": "evidence.update",
+      "path": "/connect-v-2",
+      "handler": "connect-v2.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/evidence",
-      "handler": "evidence.delete",
+      "path": "/connect-v-2",
+      "handler": "connect-v2.delete",
       "config": {
         "policies": []
       }
